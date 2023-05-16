@@ -1,7 +1,11 @@
 import Image from "next/image";
 
-export default function Home() {
+type Props = {};
+
+export default function Home(props: Props) {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+		<main className="">
+			<h1>main</h1>
+		</main>
 	);
 }
